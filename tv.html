@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+  />
+  <link rel="stylesheet" href="style.css" />
+
+
+
+
+  <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+    <title>ANASAYFA</title>
+</head>
+<body>
+
+  <div class="navbar">
+    <a href="index.html">ANASAYFA</a>
+    <a href="film.html">FİLM</a>
+    <a href="music.html">MUZİK</a>
+    <a href="tv.html">TV</a>
+    <a href="oyun.html">OYUN</a>
+  </div>
+      
+      <div class="main">
+
+        <iframe id="videos" width="560" height="315" src="https://www.youtube.com/embed/X_EWYemclKA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h1>Hoşgeldiniz</h1>
+        <h2>İzlemek için bir kanal seçin</h2>
+
+      
+
+
+        <button id="atv" class="action-btn">
+          <img src="images/ahaber.PNG" alt="atv" width="140" height="100">
+        </button>
+
+        <button id="cnn" class="action-btn">
+          <img src="images/cnn.PNG" alt="cnn" width="140" height="100">
+        </button>
+
+        <button id="aspor" class="action-btn">
+          <img src="images/aspor.PNG" alt="aspor" width="140" height="100">
+        </button>
+
+        <button id="trt" class="action-btn">
+          <img src="images/trt.PNG" alt="trt" width="140" height="100"> 
+        </button>
+
+
+      </div>
+
+
+
+      <p>❤️İSKENDERUN TECHNICAL UNIVERSITY ❤️</p>
+
+    <script>
+      var vide=document.getElementById("videos");
+
+      var btn_atv=document.getElementById("atv");
+      btn_atv.addEventListener("click" , function(){
+        vide.src="https://www.youtube.com/embed/jS5hREP27Is";
+      });
+
+      var btn_atv=document.getElementById("cnn");
+      btn_atv.addEventListener("click" , function(){
+        vide.src="https://www.youtube.com/embed/X_EWYemclKA";
+      });
+
+      var btn_atv=document.getElementById("aspor");
+      btn_atv.addEventListener("click" , function(){
+        vide.src="https://www.youtube.com/embed/MR0lWtT_VXs";
+      });
+
+      var btn_atv=document.getElementById("trt");
+      btn_atv.addEventListener("click" , function(){
+        vide.src="https://www.youtube.com/embed/hjqzJD5qeDU";
+      });
+
+
+    </script>
+</body>
+</html>
+

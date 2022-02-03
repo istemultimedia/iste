@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+  />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+
+
+
+
+    <title>ANASAYFA</title>
+</head>
+<body>
+
+  <div class="navbar">
+    <a href="index.html">ANASAYFA</a>
+    <a href="film.html">FİLM</a>
+    <a href="music.html">MUZİK</a>
+    <a href="tv.html">TV</a>
+    <a href="oyun.html">OYUN</a>
+  </div>
+      
+      <div class="main">
+
+        <iframe id="videos" width="560" height="315" src="https://www.youtube.com/embed/A1VUVRmA5G4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h1>Film Seçiniz</h1>
+
+        <button id="hurKole" class="action-btn">
+          <img src="images/hurKole.PNG" alt="hurKole" width="130" height="180">
+        </button>
+
+        <button id="feride" class="action-btn">
+          <img src="images/feride.PNG" alt="feride" width="130" height="180">
+        </button>
+
+        <button id="tutsak" class="action-btn">
+          <img src="images/tutsak.PNG" alt="tutsak" width="130" height="180">
+        </button>
+
+        <button id="zamanAsimi" class="action-btn">
+          <img src="images/zamanAsimi.PNG" alt="zamanAsimi" width="130" height="180">
+        </button>
+
+
+      </div>
+
+
+
+    <p>❤️İSKENDERUN TECHNICAL UNIVERSITY ❤️</p>
+
+    <script>
+      var vide=document.getElementById("videos");
+
+      var btn_atv=document.getElementById("hurKole");
+      btn_atv.addEventListener("click" , function(){
+        vide.src="https://www.youtube.com/embed/A1VUVRmA5G4";
+      });
+
+      var btn_atv=document.getElementById("feride");
+      btn_atv.addEventListener("click" , function(){
+        vide.src="https://www.youtube.com/embed/FR9abR6nu84";
+      });
+
+      var btn_atv=document.getElementById("tutsak");
+      btn_atv.addEventListener("click" , function(){
+        vide.src="https://www.youtube.com/embed/bQRP2g_SFXM";
+      });
+
+      var btn_atv=document.getElementById("zamanAsimi");
+      btn_atv.addEventListener("click" , function(){
+        vide.src="https://www.youtube.com/embed/Ssz9BdkqCYo";
+      });
+
+
+    </script>
+</body>
+</html>
+
